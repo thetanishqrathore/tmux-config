@@ -17,7 +17,7 @@ works on tmux ≥ 3.2.
 ## Install
 
 ```bash
-git clone https://github.com/<you>/tmux-config.git ~/tmux-config
+git clone https://github.com/thetanishqrathore/tmux-config.git ~/tmux-config
 cd ~/tmux-config
 ./install.sh
 ```
