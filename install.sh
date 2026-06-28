@@ -53,6 +53,6 @@ fi
 
 bold "Done."
 echo
-echo "  Prefix is Ctrl-Space. Start tmux with:  tmux"
-echo "  Reload anytime with:  Ctrl-Space then r"
+echo "  Prefix is Ctrl-a. Start tmux with:  tmux"
+echo "  Reload anytime with:  Ctrl-a then r"
 echo "  Cheatsheet:  see README.md"

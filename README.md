@@ -6,7 +6,7 @@ works on tmux ≥ 3.2.
 
 ## Features
 
-- **Ctrl-Space** prefix — ergonomic and conflict-free (frees the default `Ctrl-b`).
+- **Ctrl-a** prefix — ergonomic and conflict-free (frees the default `Ctrl-b`).
 - **Mouse on** — click panes, drag borders to resize, scroll to enter copy mode.
 - **System clipboard** over SSH via OSC 52 — no `xclip`/`pbcopy` needed.
 - **Vim-style** pane navigation, copy mode, and resizing.
@@ -25,7 +25,7 @@ cd ~/tmux-config
 The installer symlinks `tmux.conf` to `~/.tmux.conf`, backs up any existing
 config, and reloads a running tmux server. Re-run it anytime; it's idempotent.
 
-Start tmux with `tmux`. Reload the config without restarting: **`Ctrl-Space` then `r`**.
+Start tmux with `tmux`. Reload the config without restarting: **`Ctrl-a` then `r`**.
 
 ### Don't have tmux yet?
 
@@ -43,7 +43,7 @@ sudo dnf install -y tmux                               # Fedora/RHEL
 
 ## Cheatsheet
 
-> Prefix = **`Ctrl-Space`**. Notation: `prefix r` means press `Ctrl-Space`, release, then `r`.
+> Prefix = **`Ctrl-a`**. Notation: `prefix r` means press `Ctrl-a`, release, then `r`.
 
 ### Sessions, windows, panes
 | Keys | Action |
@@ -101,8 +101,8 @@ machine-specific tweaks you don't want to commit, drop them in
 To change the prefix, edit these lines near the top of `tmux.conf`:
 
 ```tmux
-set -g prefix C-Space
-bind C-Space send-prefix
+set -g prefix C-a
+bind C-a send-prefix
 ```
 
 ## Notes
