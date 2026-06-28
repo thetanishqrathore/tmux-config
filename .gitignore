@@ -1,0 +1,7 @@
+# Local, machine-specific tmux overrides (sourced by tmux.conf if present)
+.tmux.conf.local
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
